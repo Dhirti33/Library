@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <div class="container">
+        <button class="newBook">New Book</button>
+        <div class="addBook">
+            <form action="" id="addBook">
+                <label for="">Add Book</label>
+                <input type="text" class="input" id="author" placeholder="Author">
+                <input type="text" class="input" id="title" placeholder="Title">
+                <input type="number" class="input" id="numPages" placeholder="Number of Pages">
+                <input type="text" class="input" id="isRead" placeholder="Have You Read">
+                <div class="isread">Have you read <input type="checkbox" name="" id=""></div>
+                <input type="submit" class="submit" value="Add Book">
+            </form>
+        </div>
+        <div class="libraryContainer">
+            
+            <div class="bookCard">
+                <div class="bookInfo">
+                    <label for="" >New Book</label>
+                    <div class="author">
+                        <h4>Author : </h4>
+                        <div class="authorInfo"></div>
+                    </div>
+                    <div class="title">
+                        <h4>Title : </h4>
+                        <div class="titleInfo"></div>
+                    </div>
+                    <div class="numPages">
+                        <h4>Number Of Pages : </h4>
+                        <div class="numPagesInfo"></div>
+                    </div>
+                    <div class="isRead">
+                        <h4>Have you read : </h4>
+                        <div class="isReadInfo"></div>
+                    </div>
+                    <button class="remove">Remove Book</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script async src="library.js"></script>
+</html>
